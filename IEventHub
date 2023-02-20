@@ -1,0 +1,7 @@
+namespace SistemaDeCadastroAPI.Repositorios.Intefaces
+{
+    public interface IEventHub
+    {
+        Task CreateEventAsync();
+    }
+}
